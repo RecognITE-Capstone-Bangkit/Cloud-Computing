@@ -24,6 +24,19 @@ RecognITE (Recognize ITE Law Violation) is a web service that allows to detect v
 -	http://127.0.0.1:5000/
 - https://recognite-flask-4b2z2rrx2a-et.a.run.app/
 
+## Guidance How To Run Locally
+Ensure you have the following dependencies installed.
+Flask
+tensorflow==2.15.0
+pandas==2.0.3
+scikit-learn==1.2.2
+
+For using our NLP Model, You must clone our repository first with this following command :
+https://github.com/RecognITE-Capstone-Bangkit/Cloud-Computing.git
+
+after cloning the repository, go to the aplod directory and run the following command on your favorite CLI:
+python app.py
+
 ## Index Endpoints
 **Base URL :**
 
