@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="RecognITE.jpeg" alt="Konva logo" height="180" />
+  <img src="" alt="Konva logo" height="180" />
 </p>
 
 <h1 align="center">Recognize ITE Law Violation</h1>
@@ -26,16 +26,20 @@ RecognITE (Recognize ITE Law Violation) is a web service that allows to detect v
 
 ## Guidance How To Run Locally
 Ensure you have the following dependencies installed.
+```text
 Flask
 tensorflow==2.15.0
 pandas==2.0.3
 scikit-learn==1.2.2
+```
 
-For using our NLP Model, You must clone our repository first with this following command :
-https://github.com/RecognITE-Capstone-Bangkit/Cloud-Computing.git
+For using our NLP Model, You must clone our repository first with this following command:
+
+`https://github.com/RecognITE-Capstone-Bangkit/Cloud-Computing.git`
 
 after cloning the repository, go to the aplod directory and run the following command on your favorite CLI:
-python app.py
+
+`python app.py`
 
 ## Index Endpoints
 **Base URL :**
